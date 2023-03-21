@@ -1,0 +1,109 @@
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 56.25em;
+}
+
+.car-type-container {
+  display: flex;
+  flex: 1;
+  border-radius: 0.75em;
+}
+
+.car-type-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  width: 700;
+}
+
+.car-type-description {
+  font-weight: 400;
+  padding-bottom: 4.6875em;
+  line-height: 1.7;
+  font-size: 0.9375em;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  padding: 0.75em;
+  width: 60%;
+  border-radius: 2em;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.car-type-sedans {
+  box-sizing: border-box;
+  padding: 2.5em;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(31, 77%, 52%);
+}
+.car-type-link-sedans {
+  color: hsl(31, 77%, 52%);
+}
+.car-type-link-sedans:hover {
+  color: #fff;
+  background-color: transparent;
+  border: #fff solid 2px;
+}
+
+.car-type-suvs {
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(184, 100%, 22%);
+}
+.car-type-link-suvs {
+  color: hsl(184, 100%, 22%);
+}
+.car-type-link-suvs:hover {
+  color: #fff;
+  background-color: transparent;
+  border: #fff solid 2px;
+}
+
+.car-type-luxury {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 100%, 13%);
+}
+.car-type-link-luxury {
+  color: hsl(179, 100%, 13%);
+}
+.car-type-link-luxury:hover {
+  color: #fff;
+  background-color: transparent;
+  border: #fff solid 2px;
+  transform: scale(1);
+}
