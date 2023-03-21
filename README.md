@@ -5,8 +5,8 @@
 This is a solution to https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2- . Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 # link
-- Solution URL:https://www.frontendmentor.io/solutions/nft-preview-card-component-flex-css-h7c5O2OH4H
-- Live Site URL:https://madmohammed22.github.io/NFT-preview-card-component/
+- Solution URL:https://www.frontendmentor.io/solutions/3column-preview-card-component-using-flexbox-0pe57D3K5F
+- Live Site URL:https://madmohammed22.github.io/3-column-preview-card-component/
 
 # My process
 - Semantic HTML5, CSS markup
